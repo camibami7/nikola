@@ -1,0 +1,127 @@
+/* #438640 (green)
+#4084B8 (blue)
+#792F1E (red)
+#F1F1F1 (light Gray)
+#666666 (darker Gray)
+Trees: https://images.unsplash.com/photo-1430132594682-16e1185b17c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80
+City: https://images.unsplash.com/26/city-scape.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80
+Train: https://images.unsplash.com/22/country-train.JPG?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
+sunset: https://images.unsplash.com/reserve/lNlimzQRqm3emNrRnv1w_IMG_7726.JPG?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80
+smoke: https://images.unsplash.com/12/steam.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1446&q=80
+*/
+
+/* BOXES */
+
+.boxes {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 7%;
+    margin-bottom: 30px;
+    
+}
+
+.box {
+    margin-right: 40px;
+    background-color: #F1F1F1;
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.box img {
+    height: 240px;
+    width: auto;
+}
+
+.words {
+    margin: 15px;
+    color: #666666;
+    font-weight: 100;
+}
+
+button {
+    align-self: center;
+    padding: 13px 25px;
+    font-size: 1em;
+    border-radius: 6px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    opacity: .7;
+}
+
+button:focus {
+    outline: none;
+}
+
+.green {
+    background-color: #438640;
+    color: white;
+}
+.red {
+    background-color: #792F1E;
+    color: white;
+}
+.blue {
+    background-color: #4084B8;
+    color: white;
+}
+
+.box-header-g {
+    color: #438640;
+}
+.box-header-b {
+    color: #4084B8;
+}
+.box-header-r {
+    color: #666666;
+}
+
+/* COLUMNS */
+
+.columns {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin-left: 5.5%;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.column {
+    background-color: #F1F1F1;
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+    font-weight: 100;
+    color: #666666;
+    width: 600px;
+}
+
+.column img {
+    width: 600px;
+    height: 300px;
+}
+
+.cwords {
+    margin: 15px;
+}
+
+.cwords h2 {
+    text-align: center;
+}
+
+.read-more {
+    margin-left: 63%;
+    margin-bottom: 10px;
+
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.4; 
+}

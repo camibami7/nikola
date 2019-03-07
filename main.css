@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.paralax {
+    background-image: url(https://images.unsplash.com/photo-1446061858716-e35dd0c714bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.paralax h1 {
+    color: #FCF7FF;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 4em;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px black;
+    font-weight: 300;
+}
+
+.paralax h3 {
+    color: #FCF7FF;
+    margin-top: -35px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px black;
+    font-weight: 300;
+}
